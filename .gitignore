@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Secrets
+.env
+.env.*
+!.env.example
+secrets.json
+credentials.json
+token.json
+
+# Local databases and backups
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+*.db-wal
+*.db-shm
+*.bak
+
+# Local media
+*.mp3
+*.wav
+*.flac
+*.aac
+*.m4a
+*.ogg
+*.mp4
+
+# macOS and editors
+.DS_Store
+.vscode/
+.idea/
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# Test and backup artifacts
+.pytest_cache/
+*.bak
+.DS_Store
+# Test and backup artifacts
+.pytest_cache/
+*.bak
+.DS_Store
